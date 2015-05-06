@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Endless Runner Prototype</title>
+	</head>
+	<style>
+		body, html {
+			background: #007bbf;
+			color: #fff;
+			font-family: GibsonRegular, Tahoma, sans-serif;
+			font-size: 14px;
+			font-weight: 400;
+			font-style: normal;
+			position: relative;
+			min-height: 560px;
+			margin: 50px 0 0 0;
+			padding: 0;
+		}
+
+		a {
+			color: white;
+			display: block;
+			margin-top: 20px;
+			font-size: 12px;
+			text-align: center;
+		}
+
+		canvas {
+			position: relative;
+			display: block;
+			border: 1px solid grey;
+			margin: 0 auto;
+			background: #efefef;
+		}
+
+		#ui {
+			position: relative;
+			display: block;
+			margin: 0 auto;
+			width: 600px;
+			height: 250px;
+			z-index: 10;
+		}
+
+		#score {
+			position: absolute;
+			display: block;
+			margin: 0 auto;
+			top: 5px;
+			right: 5px;
+			text-align: right;
+			font-family: "Lucida Console";
+			background: white;
+			color: black;
+			z-index: 100;
+		}
+
+		#start-game {
+			border: 1px solid grey;
+			position: absolute;
+			display: block;
+			margin: auto;
+			padding: 20px;
+			top: 0;
+			left: 0;
+			right: 0;
+			bottom: 0;
+			width: 100px;
+			height: 15px;
+			text-align: center;
+			font-family: "Lucida Console";
+			background: rgba(0, 0, 0, .5);
+			z-index: 100;
+			cursor: pointer;
+		}
+
+		.tutorial {
+			display: block;
+			position: relative;
+
+			width: 100%;
+			height: auto;
+			
+			margin-top: 200px;
+		}
+	</style>
+	<body>
+		<div id="ui">
+			<div id="score">0</div>
+			<div id="start-game">Start Game</div>
+			<canvas id="canvas" width="600" height="250"></canvas>
+			<a href="http://martinemmert.de">Copyright &copy; 2015 by Martin Emmert</a>
+		</div>
+
+		<p style="margin-top: 50px; text-align: center">press "space" to (re)start</p>
+
+		<img class="tutorial" src="small_tutorial.jpg" alt="SMALL TUTORIAL"/>
+		
+		<script src="bower_components/typescript-signals/src/Signal.js"></script>
+		<script src="build/app.js"></script>
+
+	</body>
+</html>
