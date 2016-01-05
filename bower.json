@@ -1,6 +1,5 @@
 {
   "name": "endlress-runner-prototype",
-  "main": "main.js",
   "version": "0.0.1",
   "authors": [
     "Martin Emmert <martin@martinemmert.de>"
@@ -11,8 +10,11 @@
   "ignore": [
     "**/.*",
     "node_modules",
-    "bower_components",
+    "src/bower_components",
     "test",
     "tests"
-  ]
+  ],
+  "devDependencies": {
+    "typescript-signals": "https://github.com/quentint/typescript-signals.git"
+  }
 }

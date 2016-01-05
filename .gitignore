@@ -1,0 +1,5 @@
+*.idea
+src/bower_components
+src/editor
+built
+editor.*

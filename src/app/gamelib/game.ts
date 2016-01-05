@@ -1,4 +1,4 @@
-///<reference path="../../../bower_components/typescript-signals/src/Signal.ts" />
+///<reference path="../../bower_components/typescript-signals/src/Signal.ts" />
 ///<reference path="utils.ts" />
 ///<reference path="tiles.ts" />
 

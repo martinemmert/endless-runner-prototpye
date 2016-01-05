@@ -50,7 +50,7 @@ module game {
 
 		protected _tilesRegister:any;
 
-		protected _debug:boolean = true;
+		protected _debug:boolean = false;
 
 		/*
 		 * public methods

@@ -1,0 +1,41 @@
+{
+    "compilerOptions": {
+        "module": "umd",
+        "target": "es5",
+        "noImplicitAny": false,
+        "out": "../../built/app.js",
+        "sourceMap": false
+    },
+    "filesGlob": [
+        "../bower_components/typescript-signals/src/Signal.ts",
+        "./gamelib/**/*.ts",
+        "./app.ts"
+    ],
+    "files": [
+        "../bower_components/typescript-signals/src/Signal.ts",
+        "./gamelib/game.ts",
+        "./gamelib/game/Game.ts",
+        "./gamelib/game/GameSettings.ts",
+        "./gamelib/game/Hero.ts",
+        "./gamelib/game/World.ts",
+        "./gamelib/graphics.ts",
+        "./gamelib/graphics/Camera.ts",
+        "./gamelib/graphics/DebugRenderer.ts",
+        "./gamelib/graphics/IRenderer.ts",
+        "./gamelib/input.ts",
+        "./gamelib/input/DesktopInput.ts",
+        "./gamelib/input/IInput.ts",
+        "./gamelib/tiles.ts",
+        "./gamelib/tiles/BlockTile.ts",
+        "./gamelib/tiles/DisplayTile.ts",
+        "./gamelib/tiles/FloorTile.ts",
+        "./gamelib/tiles/HeroTile.ts",
+        "./gamelib/tiles/ObstacleTile.ts",
+        "./gamelib/tiles/Tile.ts",
+        "./gamelib/tiles/TileFactory.ts",
+        "./gamelib/tiles/TriggerTile.ts",
+        "./gamelib/utils.ts",
+        "./gamelib/utils/PositionAttachment.ts",
+        "./app.ts"
+    ]
+}

@@ -1,0 +1,21 @@
+{
+  "name": "endlress-runner-prototype",
+  "version": "0.0.1",
+  "author": "Martin Emmert <martin@martinemmert.de>",
+  "description": "an prototype of an endless runner game",
+  "license": "MIT",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "build-game": "cd ./src/app && tsc",
+    "build-editor": "cd ./src/editor && tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/martinemmert/endless-runner-prototpye.git"
+  },
+  "bugs": {
+    "url": "https://github.com/martinemmert/endless-runner-prototpye/issues"
+  },
+  "homepage": "http://endless-runner-prototype.projects.martinemmert.de/"
+}
